@@ -2,7 +2,7 @@ import pepita.*
 import wollok.game.*
 
 object nido {
-	method position() = game.origin()
+	method position() = game.center()
 	method image() = "nido.png"
 }
 

@@ -12,7 +12,7 @@ program PepitaGame {
 	
 	tutorial1.iniciar()
 
-	//game.showAttributes(pepita) //Debug
+	game.showAttributes(pepita) //Debug
 
 	game.start()
 }
