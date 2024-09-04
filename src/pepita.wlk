@@ -29,7 +29,7 @@ object pepita {
 
 	method estaEnElNido() {
 		
-		return false // Reemplazar por el código correcto
+		return self.position() == nido.position()
 	}
 
 }
